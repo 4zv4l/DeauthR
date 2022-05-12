@@ -1,2 +1,2 @@
-# auto_deauth
+# DeauthR
 Ruby script that automate a Deauth attack using aircrack-ng
