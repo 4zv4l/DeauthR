@@ -12,7 +12,7 @@ begin
   system("iwconfig #{interface} mode Monitor") or raise
   system("ip link set #{interface} up") or raise
 rescue
-  puts "could not set the interface is monitor mode.."
+  puts "could not set the interface in monitor mode.."
   exit 1
 end
 
